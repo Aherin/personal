@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { PersonalApp } from './PersonalApp';
+import 'bulma/css/bulma.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
