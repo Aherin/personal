@@ -4,6 +4,10 @@ import reportWebVitals from './reportWebVitals';
 import { PersonalApp } from './PersonalApp';
 import 'bulma/css/bulma.min.css';
 import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 ReactDOM.render(
   <React.StrictMode>

@@ -7,7 +7,7 @@ export const LandingPage = () => {
     return (
         <>
             <section className="hero is-fullheight">
-                <div class="hero-head">
+                <div className="hero-head">
                     <NavBar />
                 </div>
                 <div className="hero-body animate__animated animate__fadeIn animate__slow">
@@ -19,21 +19,18 @@ export const LandingPage = () => {
                                 </figure>
                             </div>
                             <div className="column px-6">
-                                <p class="title is-size-1 has-text-left-desktop-only has-text-centered-mobile mb-6">
+                                <p className="title is-size-1 has-text-left-desktop-only has-text-centered-mobile mb-6">
                                     Hi there!
                                 </p>
-                                <p class="subtitle is-size-3 has-text-left-desktop-only has-text-centered-mobile">
+                                <p className="subtitle is-size-3 has-text-left-desktop-only has-text-centered-mobile">
                                     Fuelled by a passion for designing compelling products, I have a deep desire to excel and
                                     continuously improve in my work. Learn more about my journey below
                                 </p>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
-
         </>
     )
 }
