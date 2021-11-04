@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { PersonalApp } from './PersonalApp';
 import 'bulma/css/bulma.min.css';
+import 'animate.css';
 
 ReactDOM.render(
   <React.StrictMode>

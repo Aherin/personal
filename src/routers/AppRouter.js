@@ -4,17 +4,14 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-  } from "react-router-dom";
-
+} from "react-router-dom";
 
 export const AppRouter = () => {
     return (
         <Router>
-            <div>
-                <Switch>
-                    <Route path="/" component={ LandingPage } />
-                </Switch>
-            </div>
+            <Switch>
+                <Route path="/" component={LandingPage} />
+            </Switch>
         </Router>
     )
 }
