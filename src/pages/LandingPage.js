@@ -47,8 +47,8 @@ export const LandingPage = () => {
                                 start-up VideoMyJob.
                             </p>
                         </div>
-                        <div class="column px-6">
-                            <div class="tags are-large" >
+                        <div class="column px-6 ">
+                            <div class="tags are-large is-flex is-justify-content-center" >
                                 <span class="tag is-rounded is-dark" data-aos="flip-right" data-aos-duration="1000">UI DESIGN</span>
                                 <span class="tag is-rounded is-dark" data-aos="flip-right" data-aos-duration="1000">UX DESIGN</span>
                                 <span class="tag is-rounded is-dark" data-aos="flip-right" data-aos-duration="1000">PROTOTYPING</span>
