@@ -28,10 +28,10 @@ export const NavBar = () => {
                                 <strong>About</strong>
                             </a>
                             <a className="navbar-item" href="/">
-                                <strong>Contact</strong>
+                                <strong>LinkedIn</strong>
                             </a>
                             <a className="navbar-item" href="/">
-                                <div className="button is-dark"><strong>View Work</strong></div>
+                                <div className="button is-dark"><strong>Curriculum</strong></div>
                             </a>
                         </div>
                     </div>
